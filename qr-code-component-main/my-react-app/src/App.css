@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+.qr-code {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.text-container {
+  margin-top: 20px;
+}
+
+.text-container h1 {
+  font-size: 1.25rem;
+  color: hsl(218, 44%, 22%);
+  margin-bottom: 10px;
+}
+
+.text-container p {
+  font-size: 0.875rem;
+  color: hsl(220, 15%, 55%);
+}
+
+/* 데스크탑 스타일 */
+@media (min-width: 1440px) {
+  .card {
+    max-width: 400px; /* 카드의 최대 너비를 400px로 설정 */
+  }
+}
