@@ -1,6 +1,6 @@
 [build]
   base = "FrontendMentor/qr-code-component-main/my-react-app"
-  publish = "FrontendMentor/qr-code-component-main/my-react-app/dist"
+  publish = "dist"
   command = "npm run build"
 
 [[redirects]]
