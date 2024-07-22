@@ -54,6 +54,7 @@ const TimeAgo = styled.span`
 const CommentText = styled.p`
   margin: 0;
   color: #555;
+  white-space: pre-wrap;
 `;
 
 const TextareaContainer = styled.div`
